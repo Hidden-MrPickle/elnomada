@@ -26,7 +26,8 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Elnomada website is in development process. This was created with
+        commerce purpose by MrPickle The site will be up coming soon.
       </p>
     </>
   );
