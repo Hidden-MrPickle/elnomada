@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 const Shops = ({ category, photo }) => {
   return (
     <a href="#" className=" z-0 rounded relative space-y-4 p-1 text-center ">
@@ -10,5 +11,9 @@ const Shops = ({ category, photo }) => {
       </h2>
     </a>
   );
+};
+Shops.propTypes = {
+  category: PropTypes.string.isRequired,
+  photo: PropTypes.string.isRequired,
 };
 export default Shops;
