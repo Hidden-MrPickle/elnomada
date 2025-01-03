@@ -104,7 +104,7 @@ const Panel = () => {
                   <span className="sr-only">Open user menu</span>
                   <img
                     className="size-8 rounded-full"
-                    src="../profile.jpg"
+                    src="/photo/profile.jpg"
                     alt=""
                   />
                 </button>
