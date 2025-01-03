@@ -33,13 +33,10 @@ function App() {
           </button>
         </div>
         <div className=" bottom-16 flex flex-col items-center md:grid md:grid-cols-4 w-auto  h-auto rounded-md">
-          <Shops category="Coffees" photo="/elnomada/src/photo/graphs.jpg" />
-          <Shops photo="/elnomada/src/photo/clothes.jpg" category="Clothes" />
-          <Shops
-            photo="/elnomada/src/photo/groceries.jpg"
-            category="Groceries"
-          />
-          <Shops photo="/elnomada/src/photo/game.jpg" category="Game" />
+          <Shops category="Coffees" photo="/photo/graphs.jpg" />
+          <Shops photo="/photo/clothes.jpg" category="Clothes" />
+          <Shops photo="/photo/groceries.jpg" category="Groceries" />
+          <Shops photo="/photo/game.jpg" category="Game" />
         </div>
       </div>
     </>
